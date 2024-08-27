@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+#ex_01 {
+  width: 600px;
+  height: 300px;
+  padding: 40px;
+  margin: 0 auto;
+  background-position: center center;
+  background-color: #479bf9;
+  display: flex;
+}
+/* 부모쪽에 flex */
+
+.box1 {
+  width: 300px;
+  height: 300px;
+  background-color: #0a3;
+}
+
+.box2 {
+  width: 300px;
+  height: 300px;
+  background-color: #a30;
+}
+
+#ex_02 {
+  width: 1200px;
+  height: 280px;
+  margin: 0 auto;
+  padding: 40px 0px 40px 0px;
+  background-color: #eee;
+  font-size: 0;
+}
+
+#ex_02 .box3 {
+  height: 280px;
+  width: calc(25% - 20px);
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.box3:nth-child(1) {
+  background-color: #bee;
+}
+.box3:nth-child(2) {
+  background-color: #bee;
+}
+.box3:nth-child(3) {
+  background-color: #bee;
+}
+.box3:nth-child(4) {
+  background-color: #bee;
+}
+
+#ex_02_1 {
+  width: 1200px;
+  height: 280px;
+  margin: 0 auto;
+  padding: 40px 0px 40px 0px;
+  background-color: #eee;
+  font-size: 0;
+}
+
+#ex_02_1 .box4 {
+  height: 280px;
+  width: calc(25% - 20px);
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.box4:nth-child(1) {
+  background-image: url(./img/img_01.jpg);
+  background-position: center center;
+  background-size: contain;
+}
+.box4:nth-child(2) {
+  background-image: url(./img/img_02.jpg);
+  background-position: center center;
+  background-size: contain;
+}
+.box4:nth-child(3) {
+  background-image: url(./img/img_03.jpg);
+  background-position: center center;
+  background-size: contain;
+}
+
+.box4:nth-child(4) {
+  background-image: url(./img/img_04.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+#ex_03 {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  padding: 40px 0 40px 0;
+  background-color: #eee;
+  display: flex;
+}
+
+#ex_03 .box5 {
+  width: calc(25% - 10px);
+  margin: 0 10px;
+  height: auto;
+}
+
+.img_space1{
+  height: 280px;
+  background-size: contain;
+  background-image: url(./img/furniture_01.jpg);
+}
+.img_space2{
+  height: 280px;
+  background-size: contain;
+  background-image: url(./img/furniture_02.jpg);
+}
+.img_space3{
+  height: 280px;
+  background-size: contain;
+  background-image: url(./img/furniture_03.jpg);
+}
+.img_space4{
+  height: 280px;
+  background-size: contain;
+  background-image: url(./img/furniture_04.jpg);
+}
+
+.txt_space{
+  font-size: 16px;
+  color: #555;
+}
+
+
