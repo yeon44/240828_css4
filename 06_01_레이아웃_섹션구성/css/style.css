@@ -223,3 +223,27 @@
   text-decoration: none;
   font-size: 16px;
 }
+
+#ex_07 {
+  width: 1180px;
+  height: 30px;
+  margin: 0 auto;
+  padding: 10px 10px;
+  background-color: #eee;
+  display: flex;
+  justify-content: space-between;
+}
+#ex_07 .logo a img {
+  height: 30px;
+  width: 30px;
+}
+
+#ex_07 .menu {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+#ex_07 .menu ul{
+  margin: 0 20px;
+}
+#ex_07 .menu ul li{}
