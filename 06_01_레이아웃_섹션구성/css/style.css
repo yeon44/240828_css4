@@ -232,18 +232,24 @@
   background-color: #eee;
   display: flex;
   justify-content: space-between;
+  
 }
 #ex_07 .logo a img {
   height: 30px;
   width: 30px;
 }
 
-#ex_07 .menu {
-  margin: 0 0;
-  padding: 0 0;
+#ex_07 .logo a .menu {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  
 }
 
-#ex_07 .menu ul{
+#ex_07 .menu ul {
+}
+#ex_07 .menu ul li {
   margin: 0 20px;
 }
-#ex_07 .menu ul li{}
+
+/* 7번은 어떻게 해야할지 잘 모르겠어요... */
