@@ -230,26 +230,33 @@
   margin: 0 auto;
   padding: 10px 10px;
   background-color: #eee;
-  display: flex;
+  display: inline-flex;
   justify-content: space-between;
-  
 }
 #ex_07 .logo a img {
   height: 30px;
   width: 30px;
 }
 
-#ex_07 .logo a .menu {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  
+#ex_07 .menu {
+  height: 30px;
+  width: 480px;
 }
 
 #ex_07 .menu ul {
+  height: 30px;
+  width: 480px;
+  display: inline-flex;
 }
 #ex_07 .menu ul li {
+  height: 30px;
+  width: 480px;
   margin: 0 20px;
 }
 
+#ex_07 .menu ul li a {
+  font-size: 16px;
+  color: #777;
+  line-height: 30px;
+}
 /* 7번은 어떻게 해야할지 잘 모르겠어요... */
