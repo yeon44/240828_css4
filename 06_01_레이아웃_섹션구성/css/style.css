@@ -238,26 +238,29 @@
   width: 30px;
 }
 
-#ex_07 .menu {
+#ex_07 .menu3 {
   height: 30px;
   width: 480px;
+  background-color: #abf;
+  font-size: 0;
+  
 }
 
-#ex_07 .menu ul {
-  height: 30px;
-  width: 480px;
+#ex_07 .menu3 ul {
   display: inline-flex;
 }
-#ex_07 .menu ul li {
-  height: 30px;
-  width: 480px;
+#ex_07 .menu3 ul li {
+
+  background-color: #ee5;
   margin: 0 20px;
+  list-style: none;
 }
 
-#ex_07 .menu ul li a {
+#ex_07 .menu3 ul li a {
   font-size: 16px;
   color: #777;
   line-height: 30px;
+  text-decoration: none;
 }
 /* 7번은 어떻게 해야할지 잘 모르겠어요... */
 
